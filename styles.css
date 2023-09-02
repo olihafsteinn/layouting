@@ -65,15 +65,26 @@ h1{
 
 .bottomBox{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     border: 3px solid white;
     position: relative;
 }
 
 .boxRow1{
-    border: 3px solid white ;
     display: flex;
     flex-direction: column;
+    padding: 40px 0 0 20px;
+}
+
+.acdcBox{
+    display: flex;
+    align-items: center;
+    transform: rotate(-5deg) translate(5px, -15px) skew(-10deg);
+}
+
+.boxRow1Bottom{
+    display: flex;
+    transform: translate(0px, -20px);
 }
 
 .dateContainer{
@@ -82,6 +93,25 @@ h1{
     align-items: center;
     background-color: #e8e3c3;
     height: 50px;
+    width: 100px;
+}
+
+.rstoneBox{
+    transform: rotate(-5deg) translate(0px, -15px)
+}
+
+/* .rotate{
+    transform: rotate(-5deg) translate(45px, -5px);
+} */
+
+.dateContainer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e3c3;
+    transform: translate(3px, 12px);
+    height: 50px;
+    width: 100px;
 }
 
 h2{
@@ -92,9 +122,10 @@ h2{
 }
 
 .boxRow2{
-    transform: rotate(270deg);
+    transform: rotate(-275deg);
     position: absolute;
-    top: 35%;
+    top: 30%;
+    right: 28%;
 }
 
 .boxRow3{
