@@ -65,7 +65,7 @@ h1{
 
 .bottomBox{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border: 3px solid white;
     position: relative;
 }
@@ -74,16 +74,22 @@ h1{
     display: flex;
     flex-direction: column;
     padding: 40px 0 0 20px;
+    transform: rotate(-5deg);
 }
 
 .acdcBox{
     display: flex;
     align-items: center;
-    transform: rotate(-5deg) translate(5px, -15px) skew(-10deg);
+    transform: translate(5px, -15px);
+}
+
+.boxRow1Bottom div{
+    transform: translate(5px, 10px);
 }
 
 .boxRow1Bottom{
     display: flex;
+    align-items: center;
     transform: translate(0px, -20px);
 }
 
@@ -97,27 +103,13 @@ h1{
 }
 
 .rstoneBox{
-    transform: rotate(-5deg) translate(0px, -15px)
-}
-
-/* .rotate{
-    transform: rotate(-5deg) translate(45px, -5px);
-} */
-
-.dateContainer2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #e8e3c3;
-    transform: translate(3px, 12px);
-    height: 50px;
-    width: 100px;
+    transform: translate(0px, -15px)
 }
 
 h2{
     color: #e15b48;
-    font-family: 'Tulpen One', cursive;
-    font-size: 70px;
+    font-family: 'Unica One', cursive;
+    font-size: 50px;
     letter-spacing: 5px;
 }
 
@@ -128,8 +120,23 @@ h2{
     right: 28%;
 }
 
+.row3Top{
+    transform: translate(0px, 20px);
+}
+
+.floyd{
+    display: flex;
+    align-items: center;
+}
+
+.queen{
+    display: flex;
+    align-items: center;
+}
+
 .boxRow3{
-    
+    transform: rotate(-5deg);
+    padding: 0px 20px;    
 }
 
 
