@@ -54,7 +54,7 @@
 }
 
 .backgroundImage{
-    background-image: url(images/backgroundTest.jpg);
+    background-image: url(images/background.jpg);
     transform: translate(50px 0);
 }   
 
